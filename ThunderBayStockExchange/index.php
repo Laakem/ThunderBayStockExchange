@@ -38,8 +38,8 @@
 		<?php
 			include 'header.php'; 
 			echo 
-			"<div class='jumbotron jumbotron-fluid withpadding'>".
-				"
+			"
+			<div class='jumbotron jumbotron-fluid withpadding'>
 				<h1 class='text-center withpadding'><b>Thunder Bay Stock Exchange</b></h1>
 				<p class='text-center withpadding'>
 					Your favourite simulated market for practice of stock buying, selling, and trading!
@@ -51,7 +51,8 @@
 					<button type='button' class='btn btn-danger btn-lg'>REGISTER</button>
 					<button type='button' class='btn btn-primary btn-lg'>LOGIN</button>
 				</div>
-				";
+			</div>
+			";
 		?>
 		
 		<!--
