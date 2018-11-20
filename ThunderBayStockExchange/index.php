@@ -13,6 +13,12 @@
 			padding: 50px;
 		}
 		
+		div.login-register-buttons{
+			margin:center;
+			width:100%;
+			padding: 5px;
+		}
+		
 		p.withpadding{
 			margin:center;
 			width:100%;
@@ -33,14 +39,19 @@
 			include 'header.php'; 
 			echo 
 			"<div class='jumbotron jumbotron-fluid withpadding'>".
-				"<h1 class='withpadding'><b>Thunder Bay Stock Exchange</b></h1>".
-				"<p class='withpadding'>
+				"
+				<h1 class='text-center withpadding'><b>Thunder Bay Stock Exchange</b></h1>
+				<p class='text-center withpadding'>
 					Your favourite simulated market for practice of stock buying, selling, and trading!
-				</p>".
-				"<br><br><br>".
-				"<p class='withpadding'>Please Login or Register below</p>".
-				"<a class='btn btn-primary btn-lg' href='#' role='button'>Learn more</a>".
-			"</div>";
+				</p>
+				<br>
+				<p class='text-center withpadding'>Please Login or Register below</p>
+				
+				<div class='login-register-buttons'>
+					<button type='button' class='btn btn-danger btn-lg'>REGISTER</button>
+					<button type='button' class='btn btn-primary btn-lg'>LOGIN</button>
+				</div>
+				";
 		?>
 		
 		<!--

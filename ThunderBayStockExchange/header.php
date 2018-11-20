@@ -10,8 +10,9 @@
 			div.withpadding{
 				margin:center;
 				width:100%;
-				padding: 10px;
+				padding: 5px;
 			}
+			
 		</style>
 	</head>
 	
@@ -20,7 +21,7 @@
 			echo
 			"<div class='header'>".
 				"<div class='alert alert-dark withpadding' role='alert'>
-					TBSE - Ryan Mayer and Mekaal Swerhun
+					<p class='text-center'>TBSE - Ryan Mayer and Mekaal Swerhun</p>
 				</div>".
 			"</div>";
 		?>
